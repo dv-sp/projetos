@@ -1,0 +1,11 @@
+sqlcmd -S seu_servidor -d DB_OI -U seu_usuario -P sua_senha -i C:\query.sql -s "|" -W -o C:\ResultToText\output.txt
+
+-S = Servidor
+-d = Banco de dados
+-U = Usu rio
+-P = Senha
+-i = Input_file (Arquivo SQL com seus comandos)
+-s = Separador (; ou | ou -)
+-W = Remove espa‡os
+-o = Arquivo destino
+
