@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="icsk-server-prod.database.windows.net.icsk-db-gibi-prod.icsk-prod-admin"
+  DTS:DTSID="{44FF1F27-2726-4216-88B1-57FD19575957}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=icsk-server-prod.database.windows.net;User ID=icsk-prod-admin;Initial Catalog=icsk-db-gibi-prod;Provider=SQLNCLI11.1;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAG2X3MQ6cHUGsUiVnx8ga/QAAAAACAAAAAAADZgAAwAAAABAAAABTaQ46E00LXPIowblxMnGEAAAAAASAAACgAAAAEAAAAG2J7y7Ph5rur/qm0E9/z5+AAAAAs84WeHYafzaiGPI96q1CToOxib73vsdFQZvo7O8C9esCPkpjgf7ngyXfgXVwIzsd+IqnEe/sFSZM7ZH2EasaBGLrYHukO01+X5TGiSeAR4L2IVBHgwKn6B+Vjaaytw2e4Be+srdP4SlYS0JXiONlKDDlQAELR65+Mn7HQZmve2oUAAAAL6dmP/GltAHO+ijrovx2Eo2cLMw=</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
